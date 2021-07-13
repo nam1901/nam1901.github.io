@@ -37,7 +37,10 @@ li {
 #hr1 {
     margin-top: 10px;
 }
-a {text-decoration: none}
+a {
+    text-decoration: none;
+    color: black;
+}
 
 
 
