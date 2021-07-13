@@ -37,7 +37,7 @@ li {
 #hr1 {
     margin-top: 10px;
 }
-#menu > li {text-decoration: none}
+a {text-decoration: none}
 
 
 /*title*/
