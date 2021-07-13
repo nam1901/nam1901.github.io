@@ -410,10 +410,6 @@ li {
     text-align: center;
     margin-top: 30px;
 }
-.page > #page1 {
-    background-color: black;
-    color: white;
-}
 .page > a {
     background: #dbdbdb;
     color: rgb(0, 0, 0);
