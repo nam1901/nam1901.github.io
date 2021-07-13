@@ -37,10 +37,7 @@ li {
 #hr1 {
     margin-top: 10px;
 }
-a {text-decoration: none}
-a:active {
-    color: black;
-}
+#menu > li {text-decoration: none}
 
 
 /*title*/
@@ -64,11 +61,12 @@ a:active {
 }
 
 /*hang xe*/
-#hangxe {
+.hangxe {
     display: flex;
     justify-content: center;
 }
-#hangxe > li {
+
+.hangxe > li {
     margin-top: 20px;
     margin-left: 10px;
     background-color: white;
@@ -84,7 +82,7 @@ a:active {
     border-radius: 10px;
     list-style: none;
 }
-#hangxe > li:hover {
+.hangxe > li:hover {
     background-color: black;
     color: white;
 }
@@ -427,6 +425,10 @@ a:active {
     text-align: center;
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
+}
+#page > #p1 {
+    background-color: black;
+    color: white;
 }
 #page > a:hover {
     background-color: black;
