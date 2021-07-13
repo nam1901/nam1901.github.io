@@ -37,10 +37,8 @@ li {
 #hr1 {
     margin-top: 10px;
 }
-a {text-decoration: none}
-a:active {
-    color: black;
-}
+#menu > li {text-decoration: none}
+
 
 
 
@@ -64,11 +62,13 @@ a:active {
     width: 600px;
 }
 
-#classes {
+
+/* phan loai */
+.classes {
     display: flex;
     justify-content: center;
 }
-#classes > li {
+.classes > li {
     margin-top: 20px;
     margin-left: 10px;
     background-color: white;
@@ -84,7 +84,7 @@ a:active {
     border-radius: 10px;
     list-style: none;
 }
-#classes > li:hover {
+.classes > li:hover {
     background-color: black;
     color: white;
 }
@@ -406,11 +406,15 @@ a:active {
     color: rgb(133, 131, 131);
 }
 
-#page {
+.page {
     text-align: center;
     margin-top: 30px;
 }
-#page > a {
+.page > #page1 {
+    background-color: black;
+    color: white;
+}
+.page > a {
     background: #dbdbdb;
     color: rgb(0, 0, 0);
     line-height: 30px;
@@ -423,7 +427,7 @@ a:active {
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
 }
-#page > a:hover {
+.page > a:hover {
     background-color: black;
     color: white;
 }
