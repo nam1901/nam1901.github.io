@@ -42,6 +42,10 @@ p {
 a {
     text-decoration: none;
 }
+#mainmenu > ul li a:visited {
+    color: black;
+}
+
 
 
 
@@ -88,6 +92,12 @@ a {
 }
 .classes > li:hover {
     background-color: black;
+    color: white;
+}
+.classes > li a:visited {
+    color: black;
+}
+.classes > li a:hover {
     color: white;
 }
 
