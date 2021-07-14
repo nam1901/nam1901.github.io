@@ -42,7 +42,7 @@ p {
 a {
     text-decoration: none;
 }
-#menu > li a:visited {
+#mainmenu > ul li a:visited {
     color: black;
 }
 
