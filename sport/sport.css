@@ -39,14 +39,6 @@ p {
 #hr1 {
     margin-top: 10px;
 }
-a {
-    text-decoration: none;
-}
-#mainmenu > ul li a:visited {
-    color: black;
-}
-
-
 
 /*title*/
 #sport {
