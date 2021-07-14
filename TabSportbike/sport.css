@@ -194,7 +194,7 @@ a {
 #giacbr1 > #li2 {
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
-    margin-left: 50 px;
+    margin-left: 48px;
     margin-top: 10px;
     color: rgb(133, 131, 131);
 }
@@ -275,7 +275,7 @@ a {
 #giar1 > #li2 {
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
-    margin-left: 50 px;
+    margin-left: 35px;
     margin-top: 10px;
     color: rgb(133, 131, 131);
 }
@@ -464,7 +464,7 @@ a {
     margin-top: 20px;
     margin-left: 10px;
     background-color: white;
-    width: 100px;
+    width: 102px;
     font-family: 'Oswald', sans-serif;
     font-size: 18px;
     line-height: 1;
@@ -494,7 +494,7 @@ a {
     margin-left: 10px;
     background-color: white;
     width: 690px;
-    height: 250px;
+    height: 295px;
     font-family: 'Oswald', sans-serif;
     font-size: 18px;
     line-height: 1;
@@ -533,7 +533,7 @@ a {
     color: black;
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 
@@ -570,7 +570,7 @@ a {
     color: black;
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
-    margin-top: -5px;
+    margin-top: 5px;
 }
 
 /* footer */
