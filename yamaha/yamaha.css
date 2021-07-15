@@ -15,19 +15,20 @@
     margin-left: 120px;
     height: 120px;
 }
-#logo > img {
+#logo > a img {
     width: 90px;
     height: 90px;
     border-radius: 50%;
     margin-top: 2px;
     margin-left: 30px;
 }
-#brand > p {
+#brand > p a {
     font-family: 'Ropa Sans', sans-serif;
     margin-left: 20px;
     font-size: 40px;
     color: white;
     margin-top: 1px;
+    text-decoration: none;
 }
 #menu {
     display: flex;
@@ -77,7 +78,7 @@
     display: flex;
     justify-content: center;
 }
-#hangxe > li {
+#hangxe > a {
     margin-top: 20px;
     margin-left: 10px;
     background-color: white;
@@ -88,12 +89,12 @@
     padding: 8px 10px;
     border: 1px solid #000000;
     text-align: center;
-    vertical-align: middle;
     color: black;
     border-radius: 10px;
     list-style: none;
+    text-decoration: none;
 }
-#hangxe > li:hover {
+#hangxe > a:hover {
     background-color: black;
     color: white;
 }
@@ -120,8 +121,12 @@
 #giar6 > #li1 {
     font-size: 25px;
     font-family: 'Oswald', sans-serif;
-    margin-top: 10px;
+    margin-top: 12px;
     margin-left: 65px;
+}
+#giar6 > #li1 a {
+    text-decoration: none;
+    color: black;
 }
 
 #giar6 > #li2 {
@@ -132,7 +137,7 @@
     color: rgb(133, 131, 131);
 }
 
-#r1 > img {
+#r1 > a img {
     width: 275px;
     height: 190px;
     margin-top: -8px;
@@ -145,17 +150,22 @@
     font-size: 25px;
     font-family: 'Oswald', sans-serif;
     margin-top: -2px;
-    margin-left: 220px;
+    margin-left: 211px;
 }
+#giar1 > #li1 a {
+    text-decoration: none;
+    color: black;
+}
+
 #giar1 > #li2 {
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
-    margin-left: 203px;
+    margin-left: 216px;
     margin-top: 10px;
     color: rgb(133, 131, 131);
 }
 
-#r7 > img {
+#r7 > a img {
     width: 330px;
     height: 180px;
     margin-top: 1px;
@@ -169,6 +179,10 @@
     font-family: 'Oswald', sans-serif;
     margin-top: -1px;
     margin-left: 240px;
+}
+#giar7 > #li1 a {
+    text-decoration: none;
+    color: black;
 }
 #giar7 > #li2 {
     font-size: 20px;
@@ -186,7 +200,7 @@
     margin-top: 30px;
 }
 
-#r3 > img {
+#r3 > a img {
     width: 275px;
     height: 180px;
     margin-left: -577px;
@@ -201,6 +215,10 @@
     font-family: 'Oswald', sans-serif;
     margin-top: -5px;
     margin-left: -541px;
+}
+#giar3 > #li1 a {
+    text-decoration: none;
+    color: black;
 }
 
 #giar3 > #li2 {
@@ -239,7 +257,7 @@
     justify-content: center;
     margin-left: -10px;
 }
-#dongxe > li {
+#dongxe > a {
     margin-top: 20px;
     margin-left: 10px;
     background-color: white;
@@ -252,9 +270,9 @@
     text-align: center;
     vertical-align: middle;
     color: black;
-    list-style: none;
+    text-decoration: none;
 }
-#dongxe > li:hover {
+#dongxe > a:hover {
     background-color: black;
     color: white;
 }
@@ -303,7 +321,7 @@
     color: black;
     margin-bottom: 20px;
 }
-#mt10 > #image > img {
+#mt10 > #image > a img {
     width: 280px;
     height: 185px;
     margin-top: 20px;
@@ -313,6 +331,10 @@
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
     margin-top: 15px;
+}
+#mt10 > #image > p a {
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -340,7 +362,7 @@
     color: black;
     margin-bottom: 20px;
 }
-#zh2 > #image1 > img {
+#zh2 > #image1 > a img {
     width: 300px;
     height: 205px;
     margin-top: 15px;
@@ -350,6 +372,10 @@
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
     margin-top: 5px;
+}
+#zh2 > #image1 > p a {
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -370,6 +396,7 @@
     text-align: center;
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
+    text-decoration: none;
 }
 #page > a:hover {
     background-color: black;
