@@ -15,7 +15,7 @@
     margin-left: 120px;
     height: 120px;
 }
-#logo > img {
+#logo > a img {
     width: 90px;
     height: 90px;
     border-radius: 50%;
@@ -28,6 +28,10 @@
     font-size: 40px;
     color: white;
     margin-top: 10px;
+}
+#brand > p a {
+    text-decoration: none;
+    color: white;
 }
 #menu {
     display: flex;
