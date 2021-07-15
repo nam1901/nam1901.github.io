@@ -15,19 +15,20 @@
     margin-left: 120px;
     height: 120px;
 }
-#logo > img {
+#logo > a img {
     width: 90px;
     height: 90px;
     border-radius: 50%;
     margin-top: 2px;
     margin-left: 30px;
 }
-#brand > p {
+#brand > p a {
     font-family: 'Ropa Sans', sans-serif;
     margin-left: 20px;
     font-size: 40px;
     color: white;
     margin-top: 1px;
+    text-decoration: none;
 }
 #menu {
     display: flex;
@@ -123,6 +124,10 @@
     margin-top: 10px;
     margin-left: 25px;
 }
+#giar6 > #li1 a {
+    text-decoration: none;
+    color: black;
+}
 
 #giar6 > #li2 {
     font-size: 20px;
@@ -145,7 +150,11 @@
     font-size: 25px;
     font-family: 'Oswald', sans-serif;
     margin-left: 100px;
-    margin-top: 10px;
+    margin-top: 8px;
+}
+#giagsx > #li1 a {
+    text-decoration: none;
+    color: black;
 }
 #giagsx > #li2 {
     font-size: 20px;
@@ -158,7 +167,7 @@
 
 #zx6 > a img {
     width: 255px;
-    height: 150px;
+    height: 155px;
     margin-left: 190px;
 }
 #giazx6 {
@@ -168,13 +177,17 @@
     font-size: 25px;
     font-family: 'Oswald', sans-serif;
     margin-left: 220px;
-    margin-top: 10px;
+    margin-top: 12px;
+}
+#giazx6 > #li1 a {
+    text-decoration: none;
+    color: black;
 }
 #giazx6 > #li2 {
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
     margin-left: 225px;
-    margin-top: 10px;
+    margin-top: 11px;
     color: rgb(133, 131, 131);
 }
 
@@ -185,7 +198,7 @@
     margin-top: 30px;
 }
 
-#cbr1 > img {
+#cbr1 > a img {
     width: 260px;
     height: 190px;
     margin-left: 15px;
@@ -200,6 +213,10 @@
     margin-top: -13px;
     margin-left: 54px;
 }
+#giacbr1 > #li1 a {
+    text-decoration: none;
+    color: black;
+}
 #giacbr1 > #li2 {
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
@@ -210,7 +227,7 @@
 
 
 
-#bmws1 > img {
+#bmws1 > a img {
     width: 255px;
     height: 150px;
     margin-left: 220px;
@@ -225,6 +242,10 @@
     margin-left: 266px;
     margin-top: 10px;
 }
+#giabmws1 > #li1 a {
+    text-decoration: none;
+    color: black;
+}
 #giabmws1 > #li2 {
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
@@ -235,7 +256,7 @@
 
 
 
-#cbr6 > img {
+#cbr6 > a img {
     width: 285px;
     height: 200px;
     margin-left: 195px;
@@ -249,6 +270,10 @@
     font-family: 'Oswald', sans-serif;
     margin-left: 255px;
     margin-top: 2px;
+}
+#giacbr6 > #li1 a {
+    text-decoration: none;
+    color: black;
 }
 #giacbr6 > #li2 {
     font-size: 20px;
@@ -267,7 +292,7 @@
     margin-top: 30px;
 }
 
-#r1 > img {
+#r1 > a img {
     width: 270px;
     height: 190px;
     margin-top: -8px;
@@ -281,6 +306,10 @@
     margin-top: -13px;
     margin-left: 54px;
 }
+#giar1 > #li1 a {
+    text-decoration: none;
+    color: black;
+}
 #giar1 > #li2 {
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
@@ -290,8 +319,7 @@
 }
 
 
-
-#zx25 > img {
+#zx25 > a img {
     width: 285px;
     height: 155px;
     margin-left: 200px;
@@ -304,7 +332,11 @@
     font-size: 25px;
     font-family: 'Oswald', sans-serif;
     margin-left: 235px;
-    margin-top: 10px;
+    margin-top: 4px;
+}
+#giazx25 > #li1 a {
+    text-decoration: none;
+    color: black;
 }
 #giazx25 > #li2 {
     font-size: 20px;
@@ -315,8 +347,7 @@
 }
 
 
-
-#v4r > img {
+#v4r > a img {
     width: 255px;
     height: 155px;
     margin-left: 200px;
@@ -329,7 +360,11 @@
     font-size: 25px;
     font-family: 'Oswald', sans-serif;
     margin-left: 232px;
-    margin-top: 2px;
+    margin-top: 4px;
+}
+#giav4r > #li1  a {
+    text-decoration: none;
+    color: black;
 }
 #giav4r > #li2 {
     font-size: 20px;
@@ -347,7 +382,7 @@
     margin-top: 30px;
 }
 
-#pa899 > img {
+#pa899 > a img {
     width: 270px;
     height: 200px;
     margin-top: -8px;
@@ -362,17 +397,21 @@
     margin-top: -13px;
     margin-left: 30px;
 }
+#giapa899 > #li1 a {
+    text-decoration: none;
+    color: black;
+}
 #giapa899 > #li2 {
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
     margin-left: 28px;
-    margin-top: 10px;
+    margin-top: 12px;
     color: rgb(133, 131, 131);
 }
 
 
 
-#krt > img {
+#krt > a img {
     width: 285px;
     height: 190px;
     margin-left: 190px;
@@ -387,6 +426,10 @@
     margin-left: 211px;
     margin-top: -13px;
 }
+#giakrt > #li1 a {
+    text-decoration: none;
+    color: black;
+}
 #giakrt > #li2 {
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
@@ -397,7 +440,7 @@
 
 
 
-#cbr25 > img {
+#cbr25 > a img {
     width: 255px;
     height: 180px;
     margin-left: 200px;
@@ -411,6 +454,10 @@
     font-family: 'Oswald', sans-serif;
     margin-left: 250px;
     margin-top: -2px;
+}
+#giacbr25 > #li1 a {
+    text-decoration: none;
+    color: black;
 }
 #giacbr25 > #li2 {
     font-size: 20px;
@@ -438,6 +485,7 @@
     text-align: center;
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
+    text-decoration: none;
 }
 #page > a:hover {
     background-color: black;
@@ -469,7 +517,7 @@
     justify-content: center;
     margin-left: -10px;
 }
-#dongxe > li {
+#dongxe > a {
     margin-top: 20px;
     margin-left: 10px;
     background-color: white;
@@ -482,9 +530,9 @@
     text-align: center;
     vertical-align: middle;
     color: black;
-    list-style: none;
+    text-decoration: none;
 }
-#dongxe > li:hover {
+#dongxe > a:hover {
     background-color: black;
     color: white;
 }
@@ -533,7 +581,7 @@
     color: black;
     margin-bottom: 20px;
 }
-#mt10 > #image > img {
+#mt10 > #image > a img {
     width: 280px;
     height: 185px;
     margin-top: 20px;
@@ -543,6 +591,10 @@
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
     margin-top: 15px;
+}
+#mt10 > #image > p a {
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -570,7 +622,7 @@
     color: black;
     margin-bottom: 20px;
 }
-#zh2 > #image1 > img {
+#zh2 > #image1 > a img {
     width: 300px;
     height: 205px;
     margin-top: 15px;
@@ -580,6 +632,10 @@
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
     margin-top: 5px;
+}
+#zh2 > #image1 > p a {
+    text-decoration: none;
+    color: black;
 }
 
 /* footer */
