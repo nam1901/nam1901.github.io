@@ -8,11 +8,16 @@
     background-color: black;
     height: 120px;
 }
-#brand {
-    display: flex;
-    align-items: center;
-    margin-left: 120px;
-    height: 120px;
+#brand > a p {
+    font-family: 'Ropa Sans', sans-serif;
+    margin-left: 20px;
+    font-size: 40px;
+    color: white;
+    margin-top: 10px;
+}
+#brand > a {
+    text-decoration: none;
+    color: black;
 }
 #logo > a img {
     width: 90px;
