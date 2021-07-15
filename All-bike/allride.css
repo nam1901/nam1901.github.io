@@ -15,19 +15,23 @@
     margin-left: 120px;
     height: 120px;
 }
-#logo > img {
+#logo > a img {
     width: 90px;
     height: 90px;
     border-radius: 50%;
     margin-top: 2px;
     margin-left: 30px;
 }
-#brand > p {
+#brand > a p {
     font-family: 'Ropa Sans', sans-serif;
     margin-left: 20px;
     font-size: 40px;
     color: white;
     margin-top: 1px;
+}
+#brand > a {
+    text-decoration: none;
+    color: black;
 }
 #menu {
     display: flex;
@@ -125,6 +129,10 @@
     margin-top: 10px;
     margin-left: 25px;
 }
+#giar6 > #li1 a {
+    text-decoration: none;
+    color: black;
+}
 
 #giar6 > #li2 {
     font-size: 20px;
@@ -147,6 +155,10 @@
     font-family: 'Oswald', sans-serif;
     margin-top: 10px;
     margin-left: 25px;
+}
+#gia1290 > #li1 a {
+    text-decoration: none;
+    color: black;
 }
 #gia1290 > #li2 {
     font-size: 20px;
@@ -171,6 +183,10 @@
     margin-left: 220px;
     margin-top: 10px;
 }
+#giazx6 > #li1 a {
+    text-decoration: none;
+    color: black;
+}
 #giazx6 > #li2 {
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
@@ -188,7 +204,7 @@
 }
 
 
-#cbr1 > img {
+#cbr1 > a img {
     width: 250px;
     height: 180px;
     margin-left: 15px;
@@ -202,6 +218,10 @@
     margin-top: -13px;
     margin-left: 50px;
 }
+#giacbr1 > #li1 a {
+    text-decoration: none;
+    color: black;
+}
 #giacbr1 > #li2 {
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
@@ -212,7 +232,7 @@
 
 
 
-#gsx1 > img {
+#gsx1 > a img {
     width: 280px;
     height: 160px;
     margin-left: 167px;
@@ -226,6 +246,10 @@
     margin-left: 215px;
     margin-top: 10px;
 }
+#giagsx > #li1 a {
+    text-decoration: none;
+    color: black;
+}
 #giagsx > #li2 {
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
@@ -236,7 +260,7 @@
 
 
 
-#cbr6 > img {
+#cbr6 > a img {
     width: 285px;
     height: 190px;
     margin-left: 153px;
@@ -250,6 +274,10 @@
     font-family: 'Oswald', sans-serif;
     margin-left: 220px;
     margin-top: 10px;
+}
+#giacbr6 > #li1 a {
+    text-decoration: none;
+    color: black;
 }
 #giacbr6 > #li2 {
     font-size: 20px;
@@ -267,7 +295,7 @@
 }
 
 
-#sv4 > img {
+#sv4 > a img {
     width: 250px;
     height: 155px;
     margin-left: 15px;
@@ -281,6 +309,10 @@
     margin-top: 15px;
     margin-left: 70px;
 }
+#giasv4 > #li1  a {
+    text-decoration: none;
+    color: black;
+}
 #giasv4 > #li2 {
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
@@ -291,7 +323,7 @@
 
 
 
-#zh2 > img {
+#zh2 > a img {
     width: 280px;
     height: 180px;
     margin-left: 167px;
@@ -306,6 +338,10 @@
     margin-left: 243px;
     margin-top: -3px;
 }
+#giagzh2 > #li1 a {
+    text-decoration: none;
+    color: black;
+}
 #giagzh2 > #li2 {
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
@@ -316,7 +352,7 @@
 
 
 
-#mt7 > img {
+#mt7 > a img {
     width: 285px;
     height: 157px;
     margin-left: 153px;
@@ -330,6 +366,10 @@
     font-family: 'Oswald', sans-serif;
     margin-left: 224px;
     margin-top: 15px;
+}
+#giamt7 > #li1 a {
+    text-decoration: none;
+    color: black;
 }
 #giamt7 > #li2 {
     font-size: 20px;
@@ -348,7 +388,7 @@
 }
 
 
-#k16 > img {
+#k16 > a img {
     width: 280px;
     height: 200px;
     margin-left: 15px;
@@ -362,6 +402,10 @@
     margin-top: -4px;
     margin-left: 50px;
 }
+#giak16 > #li1 a {
+    text-decoration: none;
+    color: black;
+}
 #giak16 > #li2 {
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
@@ -372,7 +416,7 @@
 
 
 
-#harley > img {
+#harley > a img {
     width: 300px;
     height: 200px;
     margin-left: 145px;
@@ -387,6 +431,10 @@
     margin-left: 168px;
     margin-top: 6px;
 }
+#giagharley > #li1 a {
+    text-decoration: none;
+    color: black;
+}
 #giagharley > #li2 {
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
@@ -397,7 +445,7 @@
 
 
 
-#versys > img {
+#versys > a img {
     width: 296px;
     height: 184px;
     margin-left: 136px;
@@ -411,6 +459,10 @@
     font-family: 'Oswald', sans-serif;
     margin-left: 190px;
     margin-top: 15px;
+}
+#giaversys > #li1 a {
+    text-decoration: none;
+    color: black;
 }
 #giaversys > #li2 {
     font-size: 20px;
@@ -436,6 +488,7 @@
     text-align: center;
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
+    text-decoration: none;
 }
 .page > a:hover {
     background-color: black;
