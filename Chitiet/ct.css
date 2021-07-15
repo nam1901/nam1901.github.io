@@ -79,9 +79,13 @@ img {
     margin-left: 100px;
     display: flex;
 }
-.tq > #ts {
+.tq > #ts a {
     color: rgb(150, 150, 150);
     margin-left: 30px;
+}
+.tq > #ts a:hover {
+    text-decoration: none;
+    color: black;
 }
 #hr2 {
     width: 1330px;
