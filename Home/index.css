@@ -247,7 +247,7 @@
 }
 
 
-#ktm1290 > img {
+#ktm1290 > a img {
     width: 250px;
     height: 150px;
 }
@@ -269,7 +269,7 @@
 }
 
 
-#zx6 > img {
+#zx6 > a img {
     width: 250px;
     height: 150px;
     margin-left: 190px;
