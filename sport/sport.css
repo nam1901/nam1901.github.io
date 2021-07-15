@@ -4,40 +4,49 @@
 }
 
 /* logo - menu */
-#brand {
+.father {
     display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: black;
     height: 120px;
 }
-#logo > img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+#brand {
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+    height: 120px;
 }
-p {
+#logo > img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-top: 2px;
+    margin-left: 30px;
+}
+#brand > p {
     font-family: 'Ropa Sans', sans-serif;
     margin-left: 20px;
     font-size: 40px;
     color: white;
+    margin-top: 1px;
 }
 #menu {
     display: flex;
     list-style: none;
-    justify-content: center;
-    font-size: 22px;
+    font-size: 25px;
     margin-top: 10px;
     font-weight: 400;
+    margin-left: 350px;
+    align-items: center;
 }
-#menu > li {
+#menu > a {
     text-decoration: none;
     font-family: 'Oswald', sans-serif;
     margin-left: 40px; 
-    color: black;
+    color: white;
+    margin-top: 30px;
 }
-#hr1 {
-    margin-top: 10px;
+#menu > a:hover {
+    color: rgb(41, 116, 255);
 }
 
 /*title*/
@@ -65,7 +74,7 @@ p {
     display: flex;
     justify-content: center;
 }
-.hangxe > li {
+.hangxe > a {
     margin-top: 20px;
     margin-left: 10px;
     background-color: white;
@@ -80,10 +89,12 @@ p {
     color: black;
     border-radius: 10px;
     list-style: none;
+    text-decoration: none;
 }
-.hangxe > li:hover {
+.hangxe > a:hover {
     background-color: black;
     color: white;
+    text-decoration: none;
 }
 
 /*mau xe*/
@@ -91,10 +102,10 @@ p {
 #hang1 {
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 36px;
 }
 
-#r6 > img {
+#r6 > a img {
     width: 250px;
     height: 150px;
     margin-right: 150px;
