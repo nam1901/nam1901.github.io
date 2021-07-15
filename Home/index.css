@@ -38,6 +38,9 @@
     margin-left: 350px;
     align-items: center;
 }
+#menu > #home {
+    color: rgb(41, 116, 255);
+}
 #menu > a {
     text-decoration: none;
     font-family: 'Oswald', sans-serif;
