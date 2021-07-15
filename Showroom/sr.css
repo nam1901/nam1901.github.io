@@ -3,10 +3,24 @@
     padding: 0;
 }
 /* logo - menu */
+/* logo - menu */
 .father {
     display: flex;
     background-color: black;
     height: 120px;
+}
+#brand {
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+    height: 120px;
+}
+#logo > a img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-top: -4px;
+    margin-left: 30px;
 }
 #brand > a p {
     font-family: 'Ropa Sans', sans-serif;
