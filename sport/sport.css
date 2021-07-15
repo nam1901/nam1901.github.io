@@ -130,7 +130,7 @@
 }
 
 
-#gsx1 > img {
+#gsx1 > a img {
     width: 290px;
     height: 160px;
     margin-left: 50px;
@@ -153,7 +153,7 @@
 }
 
 
-#zx6 > img {
+#zx6 > a img {
     width: 255px;
     height: 150px;
     margin-left: 190px;
