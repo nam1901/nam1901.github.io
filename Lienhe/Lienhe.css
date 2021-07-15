@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* logo - menu */
+.father {
+    display: flex;
+    background-color: black;
+    height: 120px;
+}
+#brand {
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+    height: 120px;
+}
+#logo > img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-top: 2px;
+    margin-left: 30px;
+}
+#brand > p {
+    font-family: 'Ropa Sans', sans-serif;
+    margin-left: 20px;
+    font-size: 40px;
+    color: white;
+    margin-top: 1px;
+}
+#menu {
+    display: flex;
+    list-style: none;
+    font-size: 25px;
+    margin-top: 10px;
+    font-weight: 400;
+    margin-left: 350px;
+    align-items: center;
+}
+#menu > a {
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 40px; 
+    color: white;
+    margin-top: 31px;
+}
+#menu > a:hover {
+    color: rgb(41, 116, 255);
+}
+
+
+
+
+/*call*/
+.call {
+    display: flex;
+    justify-content: center;
+    margin-top: 49px;
+}
+.call > p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    color: black;
+    margin-left: 10px;
+}
+.call > #borderline {
+    border-bottom: 1px solid rgb(0, 0, 0);
+    height: 40px;
+    position: relative;
+    margin-left: 5px;
+    width: 1220px;
+    margin-top: 1px;
+}
+
+/*location*/
+.location {
+    display: flex;
+    background-color: rgb(224, 224, 224);
+    height: 250px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.location > div {
+    margin-top: 35px;
+    background-color: white;
+    width: 290px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    padding: 8px 10px;
+    border: 1px solid #ffffff;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    height: 170px;
+    margin-left: 70px;
+    box-shadow: 0 2px 2px rgb(145, 145, 145);
+    margin-right: 100px;
+}
+.hn > p {
+    margin-top: 15px;
+}
+.dn > p {
+    margin-top: 15px;
+}
+.hcm > p {
+    margin-top: 15px;
+}
+
+/*input*/
+@import url(https://fonts.googleapis.com/css?family=Cabin);
+.cont {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.cont > img {
+    margin-right: 140px;
+    height: 450px;
+    margin-top: 40px;
+}
+.contain {
+    height: auto;
+    width: 600px;
+    font-family: 'Cabin', sans-serif;
+    margin: 0 auto;
+    display: block;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0;
+  font-family: 'Cabin', sans-serif;
+  font-size: 25px;
+  padding: 30px;
+}
+
+h3 {
+  text-align: center;
+  color: black;
+  margin: 0;
+  font-family: 'Cabin', sans-serif;
+  padding: 10px;
+}
+
+form {
+  font-family: 'Cabin', sans-serif;
+  padding: 0;
+  width: 90%;
+  border-radius: 15px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.feedback-input {
+  color: #000;
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  border-radius: 0;
+  margin-right: 0;
+  line-height: 22px;
+  background-color: none;
+  padding: 13px 13px 13px 13px;
+  margin-bottom: 10px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  border-bottom: 2px solid #000000;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.feedback-input:focus {
+  box-shadow: 0;
+  color: #000000;
+  transition: .4s ease;
+  outline: none;
+  border-bottom: 2px solid black;
+  padding: 13px 13px 13px 13px;
+}
+
+.focused {
+  color: #000000;
+  border: #000000 solid 3px;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}
+
+#button-blue {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  background-color: #298dff;
+  color: white;
+  font-size: 24px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  margin-top: -4px;
+  font-weight: 700;
+  transition: .3s ease;
+}
+
+#button-blue:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(255, 255, 255);
+  background: #000000;
+}
+
+
+/* footer */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+li{
+	text-align: justify;
+}
+.footer{
+	background-color: #02091a;
+    padding: 70px 0;
+    margin-top: 80px;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+} 
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+@media(max-width: 767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 574px){
+    .footer-col{
+        width: 100%;
+    }
+}
+
+
+
+
+
