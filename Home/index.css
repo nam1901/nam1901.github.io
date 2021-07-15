@@ -15,19 +15,23 @@
     margin-left: 120px;
     height: 120px;
 }
-#logo > img {
+#logo > a img {
     width: 90px;
     height: 90px;
     border-radius: 50%;
     margin-top: -4px;
     margin-left: 30px;
 }
-#brand > p {
+#brand > a p {
     font-family: 'Ropa Sans', sans-serif;
     margin-left: 20px;
     font-size: 40px;
     color: white;
     margin-top: 10px;
+}
+#brand > a {
+    text-decoration: none;
+    color: black;
 }
 #menu {
     display: flex;
@@ -96,12 +100,12 @@
     justify-content: center;
     margin-top: 20px;
 }
-#r1m > img {
+#r1m > a img {
     width: 350px;
     height: 200px;
     margin-left: 20px;
 }
-#zx10r21 > img {
+#zx10r21 > a img {
     width: 350px;
     height: 200px;
     margin-left: 220px;
@@ -109,11 +113,13 @@
 #giar1m {
     list-style: none;
 }
-#giar1m > #li1 {
+#giar1m > a {
     font-size: 25px;
     font-family: 'Oswald', sans-serif;
     margin-left: 90px;
     margin-top: 10px;
+    text-decoration: none;
+    color: black;
 }
 #giar1m > #li2 {
     font-size: 20px;
@@ -125,11 +131,13 @@
 #giazx10 {
     list-style: none;
 }
-#giazx10 > #li1 {
+#giazx10 > a {
     font-size: 25px;
     font-family: 'Oswald', sans-serif;
     margin-left: 265px;
     margin-top: 10px;
+    text-decoration: none;
+    color: black;
 }
 #giazx10 > #li2 {
     font-size: 20px;
@@ -235,6 +243,12 @@
     font-family: 'Oswald', sans-serif;
     margin-top: 10px;
     margin-left: 25px;
+    text-decoration: none;
+    color: black;
+}
+#giar6 > #li1 a {
+    text-decoration: none;
+    color: black;
 }
 
 #giar6 > #li2 {
@@ -258,6 +272,12 @@
     font-family: 'Oswald', sans-serif;
     margin-top: 10px;
     margin-left: 25px;
+    text-decoration: none;
+    color: black;
+}
+#gia1290 > #li1 a {
+    text-decoration: none;
+    color: black;
 }
 #gia1290 > #li2 {
     font-size: 20px;
@@ -281,6 +301,12 @@
     font-family: 'Oswald', sans-serif;
     margin-left: 220px;
     margin-top: 10px;
+    text-decoration: none;
+    color: black;
+}
+#giazx6 > #li1 a {
+    text-decoration: none;
+    color: black;
 }
 #giazx6 > #li2 {
     font-size: 20px;
@@ -299,7 +325,7 @@
 }
 
 
-#cbr1 > img {
+#cbr1 > a img {
     width: 250px;
     height: 180px;
     margin-left: 15px;
@@ -310,9 +336,16 @@
 #giacbr1 > #li1 {
     font-size: 25px;
     font-family: 'Oswald', sans-serif;
-    margin-top: -13px;
+    margin-top: -10px;
     margin-left: 50px;
+    text-decoration: none;
+    color: black;
 }
+#giacbr1 > #li1 a {
+    text-decoration: none;
+    color: black;
+}
+
 #giacbr1 > #li2 {
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
@@ -323,7 +356,7 @@
 
 
 
-#gsx1 > img {
+#gsx1 > a img {
     width: 280px;
     height: 160px;
     margin-left: 167px;
@@ -336,6 +369,12 @@
     font-family: 'Oswald', sans-serif;
     margin-left: 215px;
     margin-top: 10px;
+    text-decoration: none;
+    color: black;
+}
+#giagsx > #li1 a {
+    text-decoration: none;
+    color: black;
 }
 #giagsx > #li2 {
     font-size: 20px;
@@ -347,7 +386,7 @@
 
 
 
-#cbr6 > img {
+#cbr6 > a img {
     width: 285px;
     height: 190px;
     margin-left: 153px;
@@ -361,6 +400,12 @@
     font-family: 'Oswald', sans-serif;
     margin-left: 220px;
     margin-top: 10px;
+    text-decoration: none;
+    color: black;
+}
+#giacbr6 > #li1 a {
+    text-decoration: none;
+    color: black;
 }
 #giacbr6 > #li2 {
     font-size: 20px;
@@ -378,7 +423,7 @@
 }
 
 
-#sv4 > img {
+#sv4 > a img {
     width: 250px;
     height: 155px;
     margin-left: 15px;
@@ -391,6 +436,12 @@
     font-family: 'Oswald', sans-serif;
     margin-top: 15px;
     margin-left: 70px;
+    text-decoration: none;
+    color: black;
+}
+#giasv4 > #li1 a {
+    text-decoration: none;
+    color: black;
 }
 #giasv4 > #li2 {
     font-size: 20px;
@@ -402,7 +453,7 @@
 
 
 
-#zh2 > img {
+#zh2 > a img {
     width: 280px;
     height: 180px;
     margin-left: 167px;
@@ -416,6 +467,12 @@
     font-family: 'Oswald', sans-serif;
     margin-left: 243px;
     margin-top: -3px;
+    text-decoration: none;
+    color: black;
+}
+#giagzh2 > #li1 a {
+    text-decoration: none;
+    color: black;
 }
 #giagzh2 > #li2 {
     font-size: 20px;
@@ -426,8 +483,7 @@
 }
 
 
-
-#mt7 > img {
+#mt7 > a img {
     width: 285px;
     height: 157px;
     margin-left: 153px;
@@ -441,6 +497,12 @@
     font-family: 'Oswald', sans-serif;
     margin-left: 224px;
     margin-top: 15px;
+    text-decoration: none;
+    color: black;
+}
+#giamt7 > #li1 a {
+    text-decoration: none;
+    color: black;
 }
 #giamt7 > #li2 {
     font-size: 20px;
