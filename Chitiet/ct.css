@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* logo - menu */
+.father {
+    display: flex;
+    background-color: black;
+    height: 120px;
+}
+#brand {
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+    height: 120px;
+}
+#logo > img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-top: -4px;
+    margin-left: 30px;
+}
+#brand > p {
+    font-family: 'Ropa Sans', sans-serif;
+    margin-left: 20px;
+    font-size: 40px;
+    color: white;
+    margin-top: 10px;
+}
+#menu {
+    display: flex;
+    list-style: none;
+    font-size: 25px;
+    margin-top: 10px;
+    font-weight: 400;
+    margin-left: 350px;
+    align-items: center;
+}
+#menu > a {
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 40px; 
+    color: white;
+    margin-top: 31px;
+}
+#menu > a:hover {
+    color: rgb(41, 116, 255);
+}
+
+/*img*/
+img {
+    vertical-align: middle;
+    width: 500px;
+    margin-left: 540px;
+    margin-top: 70px;
+}
+
+
+/*ten xe*/
+.name {
+    font-family: 'Oswald', sans-serif;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.name > p {
+    font-size: 20px;
+    color: rgb(145, 145, 145);
+}
+
+/*tong quan*/
+.tq {
+    font-family: 'Oswald', sans-serif;
+    margin-top: 50px;
+    margin-left: 100px;
+    display: flex;
+}
+.tq > #ts {
+    color: rgb(150, 150, 150);
+    margin-left: 30px;
+}
+#hr2 {
+    width: 1330px;
+    margin-left: 100px;
+    line-height: 2px;
+    box-shadow: 0 1px black;
+    margin-top: -5px;
+}
+
+/*feature*/
+.f1 > h3 {
+    font-family: 'Oswald', sans-serif;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.f1 > p {
+    font-family: 'Ropa Sans', sans-serif;
+    margin-top: 10px;
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.f2 > h3 {
+    font-family: 'Oswald', sans-serif;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.f2 > p {
+    font-family: 'Ropa Sans', sans-serif;
+    margin-top: 10px;
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.f3 > h3 {
+    font-family: 'Oswald', sans-serif;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.f3 > p {
+    font-family: 'Ropa Sans', sans-serif;
+    margin-top: 10px;
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+/*mau sac*/
+.mausac {
+    font-family: 'Oswald', sans-serif;
+    margin-top: 50px;
+    margin-left: 100px;
+    display: flex;
+}
+
+/*anh mau sac*/
+.image {
+    display: flex;
+    margin-top: -30px;
+}
+.image > #image1 > img {
+    width: 270px;
+    margin-left: 150px;
+}
+.image > #image2 > img {
+    width: 290px;
+    margin-left: 200px;
+    margin-top: 63px;
+}
+.image > #image3 > img {
+    width: 290px;
+    margin-left: 200px;
+    margin-top: 45px;
+}
+
+
+.gallery {
+    font-family: 'Oswald', sans-serif;
+    margin-top: 10px;
+    margin-left: 100px;
+    display: flex;
+}
+
+.gal1 {
+    display: flex;
+    margin-left: 100px;
+    margin-top: -70px;
+
+}
+.gal1 > img {
+    width: 332px;
+    margin-left: 0;
+}
+.gal2 {
+    display: flex;
+    margin-left: 100px;
+    margin-top: -70px;
+
+}
+.gal2 > img {
+    width: 332px;
+    margin-left: 0;
+}
+
+
+/* footer */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+li{
+	text-align: justify;
+}
+.footer{
+	background-color: #02091a;
+    padding: 70px 0;
+    margin-top: 80px;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+} 
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+@media(max-width: 767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 574px){
+    .footer-col{
+        width: 100%;
+    }
+}
