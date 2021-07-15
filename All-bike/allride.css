@@ -4,49 +4,50 @@
 }
 
 /* logo - menu */
-#brand {
+.father {
     display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: black;
     height: 120px;
 }
-#logo > img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+#brand {
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+    height: 120px;
 }
-p {
+#logo > img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-top: 2px;
+    margin-left: 30px;
+}
+#brand > p {
     font-family: 'Ropa Sans', sans-serif;
     margin-left: 20px;
     font-size: 40px;
     color: white;
+    margin-top: 1px;
 }
 #menu {
     display: flex;
     list-style: none;
-    justify-content: center;
-    font-size: 22px;
+    font-size: 25px;
     margin-top: 10px;
     font-weight: 400;
+    margin-left: 350px;
+    align-items: center;
 }
-#menu > li {
+#menu > a {
     text-decoration: none;
     font-family: 'Oswald', sans-serif;
     margin-left: 40px; 
-    color: black;
+    color: white;
+    margin-top: 31px;
 }
-#hr1 {
-    margin-top: 10px;
+#menu > a:hover {
+    color: rgb(41, 116, 255);
 }
-a {
-    text-decoration: none;
-}
-#mainmenu > ul li a:visited {
-    color: black;
-}
-
-
 
 
 /* title */
@@ -75,7 +76,7 @@ a {
     display: flex;
     justify-content: center;
 }
-.classes > li {
+.classes > a {
     margin-top: 20px;
     margin-left: 10px;
     background-color: white;
@@ -89,10 +90,13 @@ a {
     vertical-align: middle;
     border-radius: 10px;
     list-style: none;
+    color: black;
+    text-decoration: none;
 }
-.classes > li:hover {
+.classes > a:hover {
     background-color: black;
     color: white;
+    text-decoration: none;
 }
 
 
@@ -104,7 +108,7 @@ a {
     margin-top: 30px;
 }
 
-#r6 > img {
+#r6 > a img {
     width: 250px;
     height: 150px;
     margin-right: 180px;
