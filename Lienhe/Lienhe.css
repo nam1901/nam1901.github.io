@@ -30,6 +30,10 @@
     margin-top: 1px;
     text-decoration: none;
 }
+
+#mainmenu {
+    margin-top: -4px;
+}
 #menu {
     display: flex;
     list-style: none;
@@ -52,6 +56,63 @@
 #menu > a:hover {
     color: rgb(41, 116, 255);
 }
+
+/*dropdown menu*/
+#menu > .dropdown {
+    margin-top: 34px;
+}
+#menu > .dropdown #home2 {
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 40px; 
+    color: white;
+    margin-top: 31px;
+}
+#menu > .dropdown #home2:hover {
+    color: rgb(41, 116, 255);
+}
+
+#menu > .dropdown .dropdown-content {
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 40px; 
+    color: rgb(41, 116, 255);
+}
+#menu > .dropdown .dropdown-content a:hover {
+    text-decoration: none;
+    color: rgb(41, 116, 255);
+    border-radius: 10px;
+}
+
+#home2 {
+    padding: 2px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
 
 
 /*call*/
