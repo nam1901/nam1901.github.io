@@ -121,6 +121,9 @@
     text-decoration: none;
     color: black;
 }
+#giar1m > a:hover {
+    color: rgb(133, 131, 131);
+}
 #giar1m > #li2 {
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
@@ -138,6 +141,9 @@
     margin-top: 10px;
     text-decoration: none;
     color: black;
+}
+#giazx10 > a:hover {
+    color: rgb(133, 131, 131);
 }
 #giazx10 > #li2 {
     font-size: 20px;
@@ -250,6 +256,9 @@
     text-decoration: none;
     color: black;
 }
+#giar6 > #li1 a:hover {
+    color: rgb(133, 131, 131);
+}
 
 #giar6 > #li2 {
     font-size: 20px;
@@ -279,6 +288,9 @@
     text-decoration: none;
     color: black;
 }
+#gia1290 > #li1 a:hover {
+    color: rgb(133, 131, 131)
+}
 #gia1290 > #li2 {
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
@@ -307,6 +319,9 @@
 #giazx6 > #li1 a {
     text-decoration: none;
     color: black;
+}
+#giazx6 > #li1 a:hover {
+    color: rgb(133, 131, 131)
 }
 #giazx6 > #li2 {
     font-size: 20px;
@@ -345,6 +360,9 @@
     text-decoration: none;
     color: black;
 }
+#giacbr1 > #li1 a:hover {
+    color: rgb(133, 131, 131)
+}
 
 #giacbr1 > #li2 {
     font-size: 20px;
@@ -353,7 +371,6 @@
     margin-top: 10px;
     color: rgb(133, 131, 131);
 }
-
 
 
 #gsx1 > a img {
@@ -375,6 +392,9 @@
 #giagsx > #li1 a {
     text-decoration: none;
     color: black;
+}
+#giagsx > #li1 a:hover {
+    color: rgb(133, 131, 131)
 }
 #giagsx > #li2 {
     font-size: 20px;
@@ -406,6 +426,9 @@
 #giacbr6 > #li1 a {
     text-decoration: none;
     color: black;
+}
+#giacbr6 > #li1 a:hover {
+    color: rgb(133, 131, 131)
 }
 #giacbr6 > #li2 {
     font-size: 20px;
@@ -443,6 +466,9 @@
     text-decoration: none;
     color: black;
 }
+#giasv4 > #li1 a:hover {
+    color: rgb(133, 131, 131)
+}
 #giasv4 > #li2 {
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
@@ -474,6 +500,9 @@
     text-decoration: none;
     color: black;
 }
+#giagzh2 > #li1 a:hover {
+    color: rgb(133, 131, 131)
+}
 #giagzh2 > #li2 {
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
@@ -503,6 +532,9 @@
 #giamt7 > #li1 a {
     text-decoration: none;
     color: black;
+}
+#giamt7 > #li1 a:hover {
+    color: rgb(133, 131, 131)
 }
 #giamt7 > #li2 {
     font-size: 20px;
