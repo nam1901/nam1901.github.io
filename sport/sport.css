@@ -128,6 +128,9 @@
     text-decoration: none;
     color: black;
 }
+#giar6 > #li1 a:hover {
+    color: rgb(133, 131, 131);
+}
 
 #giar6 > #li2 {
     font-size: 20px;
@@ -156,6 +159,9 @@
     text-decoration: none;
     color: black;
 }
+#giagsx > #li1 a:hover {
+    color: rgb(133, 131, 131);
+}
 #giagsx > #li2 {
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
@@ -182,6 +188,9 @@
 #giazx6 > #li1 a {
     text-decoration: none;
     color: black;
+}
+#giazx6 > #li1 a:hover {
+    color: rgb(133, 131, 131);
 }
 #giazx6 > #li2 {
     font-size: 20px;
@@ -217,6 +226,9 @@
     text-decoration: none;
     color: black;
 }
+#giacbr1 > #li1 a:hover {
+    color: rgb(133, 131, 131);
+}
 #giacbr1 > #li2 {
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
@@ -246,6 +258,9 @@
     text-decoration: none;
     color: black;
 }
+#giabmws1 > #li1 a:hover {
+    color: rgb(133, 131, 131);
+}
 #giabmws1 > #li2 {
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
@@ -253,7 +268,6 @@
     margin-top: 10px;
     color: rgb(133, 131, 131);
 }
-
 
 
 #cbr6 > a img {
@@ -274,6 +288,9 @@
 #giacbr6 > #li1 a {
     text-decoration: none;
     color: black;
+}
+#giacbr6 > #li1 a:hover {
+    color: rgb(133, 131, 131);
 }
 #giacbr6 > #li2 {
     font-size: 20px;
@@ -310,6 +327,9 @@
     text-decoration: none;
     color: black;
 }
+#giar1 > #li1 a:hover {
+    color: rgb(133, 131, 131);
+}
 #giar1 > #li2 {
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
@@ -338,6 +358,9 @@
     text-decoration: none;
     color: black;
 }
+#giazx25 > #li1 a:hover {
+    color: rgb(133, 131, 131);
+}
 #giazx25 > #li2 {
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
@@ -362,9 +385,12 @@
     margin-left: 232px;
     margin-top: 4px;
 }
-#giav4r > #li1  a {
+#giav4r > #li1 a {
     text-decoration: none;
     color: black;
+}
+#giav4r > #li1 a:hover {
+    color: rgb(133, 131, 131);
 }
 #giav4r > #li2 {
     font-size: 20px;
@@ -401,6 +427,9 @@
     text-decoration: none;
     color: black;
 }
+#giapa899 > #li1 a:hover {
+    color: rgb(133, 131, 131);
+}
 #giapa899 > #li2 {
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
@@ -430,6 +459,9 @@
     text-decoration: none;
     color: black;
 }
+#giakrt > #li1 a:hover {
+    color: rgb(133, 131, 131);
+}
 #giakrt > #li2 {
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
@@ -458,6 +490,9 @@
 #giacbr25 > #li1 a {
     text-decoration: none;
     color: black;
+}
+#giacbr25 > #li1 a:hover {
+    color: rgb(133, 131, 131);
 }
 #giacbr25 > #li2 {
     font-size: 20px;
@@ -596,7 +631,9 @@
     text-decoration: none;
     color: black;
 }
-
+#mt10 > #image > p a:hover {
+    color: rgb(133, 131, 131);
+}
 
 
 #zh2 {
@@ -636,6 +673,9 @@
 #zh2 > #image1 > p a {
     text-decoration: none;
     color: black;
+}
+#zh2 > #image1 > p a:hover {
+    color: rgb(133, 131, 131);
 }
 
 /* footer */
