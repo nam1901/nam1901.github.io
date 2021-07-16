@@ -133,6 +133,9 @@
     text-decoration: none;
     color: black;
 }
+#giar6 > #li1 a:hover {
+    color: rgb(133, 131, 131);
+}
 
 #giar6 > #li2 {
     font-size: 20px;
@@ -160,6 +163,9 @@
     text-decoration: none;
     color: black;
 }
+#gia1290 > #li1 a:hover {
+    color: rgb(133, 131, 131);
+}
 #gia1290 > #li2 {
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
@@ -186,6 +192,9 @@
 #giazx6 > #li1 a {
     text-decoration: none;
     color: black;
+}
+#giazx6 > #li1 a:hover {
+    color: rgb(133, 131, 131);
 }
 #giazx6 > #li2 {
     font-size: 20px;
@@ -222,6 +231,9 @@
     text-decoration: none;
     color: black;
 }
+#giacbr1 > #li1 a:hover {
+    color: rgb(133, 131, 131);
+}
 #giacbr1 > #li2 {
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
@@ -249,6 +261,9 @@
 #giagsx > #li1 a {
     text-decoration: none;
     color: black;
+}
+#giagsx > #li1 a:hover {
+    color: rgb(133, 131, 131);
 }
 #giagsx > #li2 {
     font-size: 20px;
@@ -278,6 +293,9 @@
 #giacbr6 > #li1 a {
     text-decoration: none;
     color: black;
+}
+#giacbr6 > #li1 a:hover {
+    color: rgb(133, 131, 131);
 }
 #giacbr6 > #li2 {
     font-size: 20px;
@@ -309,9 +327,12 @@
     margin-top: 15px;
     margin-left: 70px;
 }
-#giasv4 > #li1  a {
+#giasv4 > #li1 a {
     text-decoration: none;
     color: black;
+}
+#giasv4 > #li1 a:hover {
+    color: rgb(133, 131, 131);
 }
 #giasv4 > #li2 {
     font-size: 20px;
@@ -342,6 +363,9 @@
     text-decoration: none;
     color: black;
 }
+#giagzh2 > #li1 a:hover {
+    color: rgb(133, 131, 131);
+}
 #giagzh2 > #li2 {
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
@@ -370,6 +394,9 @@
 #giamt7 > #li1 a {
     text-decoration: none;
     color: black;
+}
+#giamt7 > #li1 a:hover {
+    color: rgb(133, 131, 131);
 }
 #giamt7 > #li2 {
     font-size: 20px;
@@ -406,6 +433,9 @@
     text-decoration: none;
     color: black;
 }
+#giak16 > #li1 a:hover {
+    color: rgb(133, 131, 131);
+}
 #giak16 > #li2 {
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
@@ -435,6 +465,9 @@
     text-decoration: none;
     color: black;
 }
+#giagharley > #li1 a:hover {
+    color: rgb(133, 131, 131);
+}
 #giagharley > #li2 {
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
@@ -463,6 +496,9 @@
 #giaversys > #li1 a {
     text-decoration: none;
     color: black;
+}
+#giaversys > #li1 a:hover {
+    color: rgb(133, 131, 131);
 }
 #giaversys > #li2 {
     font-size: 20px;
