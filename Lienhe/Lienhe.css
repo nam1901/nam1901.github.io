@@ -270,13 +270,13 @@ textarea {
   width: 100%;
   border: none;
   cursor: pointer;
-  background-color: #298dff;
+  background-color: #0071f3;
   color: white;
   font-size: 24px;
   padding-top: 22px;
   padding-bottom: 22px;
   margin-top: -4px;
-  font-weight: 700;
+  font-weight: 600;
   transition: .3s ease;
 }
 
